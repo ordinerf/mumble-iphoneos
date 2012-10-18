@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E48EEC216301387008A88AC /* talkbutton_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EEC116301387008A88AC /* talkbutton_on@2x.png */; };
+		0E48EEC4163013EB008A88AC /* talkbutton_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EEC3163013EB008A88AC /* talkbutton_off@2x.png */; };
+		0E48EEC616301452008A88AC /* talkbutton_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EEC516301451008A88AC /* talkbutton_off.png */; };
+		0E48EEC816301459008A88AC /* talkbutton_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EEC716301458008A88AC /* talkbutton_on.png */; };
+		0E48EEDA1630357C008A88AC /* Balloon_2@2x5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EED216303578008A88AC /* Balloon_2@2x5.png */; };
+		0E48EEDB1630357C008A88AC /* Balloon_2@2x 2 copie.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EED316303579008A88AC /* Balloon_2@2x 2 copie.png */; };
+		0E48EEDC1630357C008A88AC /* Balloon_2@2x 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EED416303579008A88AC /* Balloon_2@2x 2.png */; };
+		0E48EEDD1630357C008A88AC /* LeftBalloonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EED51630357A008A88AC /* LeftBalloonSelected@2x.png */; };
+		0E48EEDE1630357C008A88AC /* RightBalloonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EED61630357A008A88AC /* RightBalloonSelected@2x.png */; };
+		0E48EEE01630357C008A88AC /* Balloon_Blue@2x5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EED81630357B008A88AC /* Balloon_Blue@2x5.png */; };
+		0E48EF0416303ABC008A88AC /* Balloon_Blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EF0316303ABC008A88AC /* Balloon_Blue@2x.png */; };
+		0E48EF0616303C62008A88AC /* Balloon_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EF0516303C62008A88AC /* Balloon_2@2x.png */; };
+		0E48EF0B16303E85008A88AC /* Balloon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EF0716303E82008A88AC /* Balloon_2.png */; };
+		0E48EF0C16303E85008A88AC /* LeftBalloonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EF0816303E82008A88AC /* LeftBalloonSelected.png */; };
+		0E48EF0D16303E85008A88AC /* RightBalloonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EF0916303E83008A88AC /* RightBalloonSelected.png */; };
+		0E48EF0E16303E85008A88AC /* Balloon_Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E48EF0A16303E84008A88AC /* Balloon_Blue.png */; };
+		0EC8DEF6163000E800CD8BC0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EC8DEF5163000E800CD8BC0 /* Default-568h@2x.png */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -19,10 +36,10 @@
 		280D9ADA13EAFAAE003B64A0 /* MUServerRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280D9AD913EAFAAE003B64A0 /* MUServerRootViewController.m */; };
 		2813B1D115EBFDA90049A59A /* MURemoteControlPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2813B1D015EBFDA90049A59A /* MURemoteControlPreferencesViewController.m */; };
 		2822AC0614878AC500E9DB17 /* MUConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822AC0514878AC500E9DB17 /* MUConnectionController.m */; };
-		28234D5F13F09148006B830D /* talkbutton_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 28234D5B13F09148006B830D /* talkbutton_off.png */; };
-		28234D6013F09148006B830D /* talkbutton_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28234D5C13F09148006B830D /* talkbutton_off@2x.png */; };
-		28234D6113F09148006B830D /* talkbutton_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 28234D5D13F09148006B830D /* talkbutton_on.png */; };
-		28234D6213F09148006B830D /* talkbutton_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28234D5E13F09148006B830D /* talkbutton_on@2x.png */; };
+		28234D5F13F09148006B830D /* talkbutton_off.png.ori in Resources */ = {isa = PBXBuildFile; fileRef = 28234D5B13F09148006B830D /* talkbutton_off.png.ori */; };
+		28234D6013F09148006B830D /* talkbutton_off@2x.png.ori in Resources */ = {isa = PBXBuildFile; fileRef = 28234D5C13F09148006B830D /* talkbutton_off@2x.png.ori */; };
+		28234D6113F09148006B830D /* talkbutton_on.png.ori in Resources */ = {isa = PBXBuildFile; fileRef = 28234D5D13F09148006B830D /* talkbutton_on.png.ori */; };
+		28234D6213F09148006B830D /* talkbutton_on@2x.png.ori in Resources */ = {isa = PBXBuildFile; fileRef = 28234D5E13F09148006B830D /* talkbutton_on@2x.png.ori */; };
 		282F6A2513620BD5008F555B /* MUCertificateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F6A2413620BD5008F555B /* MUCertificateController.m */; };
 		283363DB13EF154C00A04F04 /* MUAudioTransmissionPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 283363DA13EF154C00A04F04 /* MUAudioTransmissionPreferencesViewController.m */; };
 		2836767D1525053A0015958E /* MUCertificateChainBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2836767C1525053A0015958E /* MUCertificateChainBuilder.m */; };
@@ -63,15 +80,15 @@
 		2879526D14C202C600567430 /* channelmsg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879526B14C202C600567430 /* channelmsg@2x.png */; };
 		2879527014C2043E00567430 /* usermsg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879526E14C2043E00567430 /* usermsg.png */; };
 		2879527114C2043E00567430 /* usermsg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879526F14C2043E00567430 /* usermsg@2x.png */; };
-		2879527D14C248C500567430 /* Balloon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879527B14C248C500567430 /* Balloon_2.png */; };
-		2879527E14C248C500567430 /* Balloon_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879527C14C248C500567430 /* Balloon_2@2x.png */; };
+		2879527D14C248C500567430 /* Balloon_2.ori.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879527B14C248C500567430 /* Balloon_2.ori.png */; };
+		2879527E14C248C500567430 /* Balloon_2@2x.ori.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879527C14C248C500567430 /* Balloon_2@2x.ori.png */; };
 		2879528114C2504C00567430 /* MUMessageBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2879528014C2504C00567430 /* MUMessageBubbleTableViewCell.m */; };
-		2879528414C2687D00567430 /* Balloon_Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879528214C2687D00567430 /* Balloon_Blue.png */; };
-		2879528514C2687D00567430 /* Balloon_Blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879528314C2687D00567430 /* Balloon_Blue@2x.png */; };
+		2879528414C2687D00567430 /* Balloon_Blue.ori.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879528214C2687D00567430 /* Balloon_Blue.ori.png */; };
+		2879528514C2687D00567430 /* Balloon_Blue@2x.ori.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879528314C2687D00567430 /* Balloon_Blue@2x.ori.png */; };
 		2879528A14C3874C00567430 /* LeftBalloonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879528614C3874B00567430 /* LeftBalloonSelected.png */; };
-		2879528B14C3874C00567430 /* LeftBalloonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879528714C3874B00567430 /* LeftBalloonSelected@2x.png */; };
+		2879528B14C3874C00567430 /* LeftBalloonSelected@2x.ori.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879528714C3874B00567430 /* LeftBalloonSelected@2x.ori.png */; };
 		2879528C14C3874C00567430 /* RightBalloonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879528814C3874C00567430 /* RightBalloonSelected.png */; };
-		2879528D14C3874C00567430 /* RightBalloonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879528914C3874C00567430 /* RightBalloonSelected@2x.png */; };
+		2879528D14C3874C00567430 /* RightBalloonSelected@2x.ori.png in Resources */ = {isa = PBXBuildFile; fileRef = 2879528914C3874C00567430 /* RightBalloonSelected@2x.ori.png */; };
 		2879528F14C38FC200567430 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2879528E14C38FC200567430 /* MobileCoreServices.framework */; };
 		287952B014C4D67500567430 /* MUMessageRecipientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287952AF14C4D67500567430 /* MUMessageRecipientViewController.m */; };
 		287A686714C6FB9F008B1BE7 /* GrayCheckmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 287A686514C6FB9F008B1BE7 /* GrayCheckmark.png */; };
@@ -213,6 +230,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E48EEC116301387008A88AC /* talkbutton_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talkbutton_on@2x.png"; sourceTree = "<group>"; };
+		0E48EEC3163013EB008A88AC /* talkbutton_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talkbutton_off@2x.png"; sourceTree = "<group>"; };
+		0E48EEC516301451008A88AC /* talkbutton_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = talkbutton_off.png; sourceTree = "<group>"; };
+		0E48EEC716301458008A88AC /* talkbutton_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = talkbutton_on.png; sourceTree = "<group>"; };
+		0E48EED216303578008A88AC /* Balloon_2@2x5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Balloon_2@2x5.png"; sourceTree = "<group>"; };
+		0E48EED316303579008A88AC /* Balloon_2@2x 2 copie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Balloon_2@2x 2 copie.png"; sourceTree = "<group>"; };
+		0E48EED416303579008A88AC /* Balloon_2@2x 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Balloon_2@2x 2.png"; sourceTree = "<group>"; };
+		0E48EED51630357A008A88AC /* LeftBalloonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBalloonSelected@2x.png"; sourceTree = "<group>"; };
+		0E48EED61630357A008A88AC /* RightBalloonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightBalloonSelected@2x.png"; sourceTree = "<group>"; };
+		0E48EED81630357B008A88AC /* Balloon_Blue@2x5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Balloon_Blue@2x5.png"; sourceTree = "<group>"; };
+		0E48EF0316303ABC008A88AC /* Balloon_Blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Balloon_Blue@2x.png"; sourceTree = "<group>"; };
+		0E48EF0516303C62008A88AC /* Balloon_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Balloon_2@2x.png"; sourceTree = "<group>"; };
+		0E48EF0716303E82008A88AC /* Balloon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Balloon_2.png; sourceTree = "<group>"; };
+		0E48EF0816303E82008A88AC /* LeftBalloonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftBalloonSelected.png; sourceTree = "<group>"; };
+		0E48EF0916303E83008A88AC /* RightBalloonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightBalloonSelected.png; sourceTree = "<group>"; };
+		0E48EF0A16303E84008A88AC /* Balloon_Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Balloon_Blue.png; sourceTree = "<group>"; };
+		0EC8DEF5163000E800CD8BC0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Mumble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mumble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -234,10 +268,10 @@
 		2813B1D015EBFDA90049A59A /* MURemoteControlPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MURemoteControlPreferencesViewController.m; sourceTree = "<group>"; };
 		2822AC0414878AC500E9DB17 /* MUConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUConnectionController.h; sourceTree = "<group>"; };
 		2822AC0514878AC500E9DB17 /* MUConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUConnectionController.m; sourceTree = "<group>"; };
-		28234D5B13F09148006B830D /* talkbutton_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = talkbutton_off.png; path = Resources/talkbutton_off.png; sourceTree = "<group>"; };
-		28234D5C13F09148006B830D /* talkbutton_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "talkbutton_off@2x.png"; path = "Resources/talkbutton_off@2x.png"; sourceTree = "<group>"; };
-		28234D5D13F09148006B830D /* talkbutton_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = talkbutton_on.png; path = Resources/talkbutton_on.png; sourceTree = "<group>"; };
-		28234D5E13F09148006B830D /* talkbutton_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "talkbutton_on@2x.png"; path = "Resources/talkbutton_on@2x.png"; sourceTree = "<group>"; };
+		28234D5B13F09148006B830D /* talkbutton_off.png.ori */ = {isa = PBXFileReference; lastKnownFileType = file; name = talkbutton_off.png.ori; path = Resources/talkbutton_off.png.ori; sourceTree = "<group>"; };
+		28234D5C13F09148006B830D /* talkbutton_off@2x.png.ori */ = {isa = PBXFileReference; lastKnownFileType = file; name = "talkbutton_off@2x.png.ori"; path = "Resources/talkbutton_off@2x.png.ori"; sourceTree = "<group>"; };
+		28234D5D13F09148006B830D /* talkbutton_on.png.ori */ = {isa = PBXFileReference; lastKnownFileType = file; name = talkbutton_on.png.ori; path = Resources/talkbutton_on.png.ori; sourceTree = "<group>"; };
+		28234D5E13F09148006B830D /* talkbutton_on@2x.png.ori */ = {isa = PBXFileReference; lastKnownFileType = file; name = "talkbutton_on@2x.png.ori"; path = "Resources/talkbutton_on@2x.png.ori"; sourceTree = "<group>"; };
 		282F6A2313620BD5008F555B /* MUCertificateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCertificateController.h; sourceTree = "<group>"; };
 		282F6A2413620BD5008F555B /* MUCertificateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCertificateController.m; sourceTree = "<group>"; };
 		283363D913EF154C00A04F04 /* MUAudioTransmissionPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUAudioTransmissionPreferencesViewController.h; sourceTree = "<group>"; };
@@ -301,16 +335,16 @@
 		2879526B14C202C600567430 /* channelmsg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "channelmsg@2x.png"; path = "Resources/channelmsg@2x.png"; sourceTree = "<group>"; };
 		2879526E14C2043E00567430 /* usermsg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usermsg.png; path = Resources/usermsg.png; sourceTree = "<group>"; };
 		2879526F14C2043E00567430 /* usermsg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "usermsg@2x.png"; path = "Resources/usermsg@2x.png"; sourceTree = "<group>"; };
-		2879527B14C248C500567430 /* Balloon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Balloon_2.png; path = Resources/Apple/Balloon_2.png; sourceTree = "<group>"; };
-		2879527C14C248C500567430 /* Balloon_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Balloon_2@2x.png"; path = "Resources/Apple/Balloon_2@2x.png"; sourceTree = "<group>"; };
+		2879527B14C248C500567430 /* Balloon_2.ori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Balloon_2.ori.png; path = Resources/Apple/Balloon_2.ori.png; sourceTree = "<group>"; };
+		2879527C14C248C500567430 /* Balloon_2@2x.ori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Balloon_2@2x.ori.png"; path = "Resources/Apple/Balloon_2@2x.ori.png"; sourceTree = "<group>"; };
 		2879527F14C2504B00567430 /* MUMessageBubbleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMessageBubbleTableViewCell.h; sourceTree = "<group>"; };
 		2879528014C2504C00567430 /* MUMessageBubbleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMessageBubbleTableViewCell.m; sourceTree = "<group>"; };
-		2879528214C2687D00567430 /* Balloon_Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Balloon_Blue.png; path = Resources/Apple/Balloon_Blue.png; sourceTree = "<group>"; };
-		2879528314C2687D00567430 /* Balloon_Blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Balloon_Blue@2x.png"; path = "Resources/Apple/Balloon_Blue@2x.png"; sourceTree = "<group>"; };
+		2879528214C2687D00567430 /* Balloon_Blue.ori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Balloon_Blue.ori.png; path = Resources/Apple/Balloon_Blue.ori.png; sourceTree = "<group>"; };
+		2879528314C2687D00567430 /* Balloon_Blue@2x.ori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Balloon_Blue@2x.ori.png"; path = "Resources/Apple/Balloon_Blue@2x.ori.png"; sourceTree = "<group>"; };
 		2879528614C3874B00567430 /* LeftBalloonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LeftBalloonSelected.png; path = Resources/Apple/LeftBalloonSelected.png; sourceTree = "<group>"; };
-		2879528714C3874B00567430 /* LeftBalloonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LeftBalloonSelected@2x.png"; path = "Resources/Apple/LeftBalloonSelected@2x.png"; sourceTree = "<group>"; };
+		2879528714C3874B00567430 /* LeftBalloonSelected@2x.ori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LeftBalloonSelected@2x.ori.png"; path = "Resources/Apple/LeftBalloonSelected@2x.ori.png"; sourceTree = "<group>"; };
 		2879528814C3874C00567430 /* RightBalloonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightBalloonSelected.png; path = Resources/Apple/RightBalloonSelected.png; sourceTree = "<group>"; };
-		2879528914C3874C00567430 /* RightBalloonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RightBalloonSelected@2x.png"; path = "Resources/Apple/RightBalloonSelected@2x.png"; sourceTree = "<group>"; };
+		2879528914C3874C00567430 /* RightBalloonSelected@2x.ori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RightBalloonSelected@2x.ori.png"; path = "Resources/Apple/RightBalloonSelected@2x.ori.png"; sourceTree = "<group>"; };
 		2879528E14C38FC200567430 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		287952AE14C4D67500567430 /* MUMessageRecipientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMessageRecipientViewController.h; sourceTree = "<group>"; };
 		287952AF14C4D67500567430 /* MUMessageRecipientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMessageRecipientViewController.m; sourceTree = "<group>"; };
@@ -609,21 +643,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		280256351510D70D00178B08 /* en.lproj */ = {
+		280256351510D70D00178B08 /* en2.lproj */ = {
 			isa = PBXGroup;
 			children = (
 				280256361510D70D00178B08 /* Localizable.strings */,
 			);
-			name = en.lproj;
+			name = en2.lproj;
 			path = Resources/en.lproj;
 			sourceTree = "<group>";
 		};
-		280256391510DDCA00178B08 /* da.lproj */ = {
+		280256391510DDCA00178B08 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
 				2802563A1510DDCA00178B08 /* Localizable.strings */,
 			);
-			name = da.lproj;
+			name = en.lproj;
 			path = Resources/da.lproj;
 			sourceTree = "<group>";
 		};
@@ -712,13 +746,26 @@
 				287A686514C6FB9F008B1BE7 /* GrayCheckmark.png */,
 				287A686614C6FB9F008B1BE7 /* GrayCheckmark@2x.png */,
 				2879528614C3874B00567430 /* LeftBalloonSelected.png */,
-				2879528714C3874B00567430 /* LeftBalloonSelected@2x.png */,
+				2879528714C3874B00567430 /* LeftBalloonSelected@2x.ori.png */,
+				0E48EED216303578008A88AC /* Balloon_2@2x5.png */,
+				0E48EF0716303E82008A88AC /* Balloon_2.png */,
+				0E48EF0816303E82008A88AC /* LeftBalloonSelected.png */,
+				0E48EF0916303E83008A88AC /* RightBalloonSelected.png */,
+				0E48EF0A16303E84008A88AC /* Balloon_Blue.png */,
+				0E48EED316303579008A88AC /* Balloon_2@2x 2 copie.png */,
+				0E48EED416303579008A88AC /* Balloon_2@2x 2.png */,
+				0E48EED51630357A008A88AC /* LeftBalloonSelected@2x.png */,
+				0E48EF0516303C62008A88AC /* Balloon_2@2x.png */,
+				0E48EF0316303ABC008A88AC /* Balloon_Blue@2x.png */,
+				0E48EED61630357A008A88AC /* RightBalloonSelected@2x.png */,
+				0E48EED81630357B008A88AC /* Balloon_Blue@2x5.png */,
 				2879528814C3874C00567430 /* RightBalloonSelected.png */,
-				2879528914C3874C00567430 /* RightBalloonSelected@2x.png */,
-				2879527B14C248C500567430 /* Balloon_2.png */,
-				2879527C14C248C500567430 /* Balloon_2@2x.png */,
-				2879528214C2687D00567430 /* Balloon_Blue.png */,
-				2879528314C2687D00567430 /* Balloon_Blue@2x.png */,
+				2879528914C3874C00567430 /* RightBalloonSelected@2x.ori.png */,
+				2879527B14C248C500567430 /* Balloon_2.ori.png */,
+				2879527C14C248C500567430 /* Balloon_2@2x.ori.png */,
+				286A3CA8158CD12E00C817D1 /* LogoBigShadow@2x.png */,
+				2879528214C2687D00567430 /* Balloon_Blue.ori.png */,
+				2879528314C2687D00567430 /* Balloon_Blue@2x.ori.png */,
 			);
 			name = Apple;
 			sourceTree = "<group>";
@@ -748,13 +795,12 @@
 		28DC1C1213DE59120037CDC2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				280256351510D70D00178B08 /* en.lproj */,
-				280256391510DDCA00178B08 /* da.lproj */,
+				280256351510D70D00178B08 /* en2.lproj */,
+				280256391510DDCA00178B08 /* en.lproj */,
 				2879527A14C248B700567430 /* Apple */,
 				28FAA35D14D74C1600F6D711 /* SmallMumbleIcon.png */,
 				28FAA35E14D74C1600F6D711 /* SmallMumbleIcon@2x.png */,
 				286A3CAA158CD55700C817D1 /* LogoBigShadow.png */,
-				286A3CA8158CD12E00C817D1 /* LogoBigShadow@2x.png */,
 				2879525C14C0AFAC00567430 /* BlackToolbarPattern.png */,
 				2879525D14C0AFAC00567430 /* BlackToolbarPattern@2x.png */,
 				28F79C68147966840003B8BA /* WelcomeScreenIcon.png */,
@@ -767,10 +813,14 @@
 				28F79CA01479C2180003B8BA /* BackgroundTextureBlackGradient@2x.png */,
 				286A3CAC158CD5F400C817D1 /* BackgroundTextureBlackGradientPad.png */,
 				286A3CA6158CD05A00C817D1 /* BackgroundTextureBlackGradientPad@2x.png */,
-				28234D5B13F09148006B830D /* talkbutton_off.png */,
-				28234D5C13F09148006B830D /* talkbutton_off@2x.png */,
-				28234D5D13F09148006B830D /* talkbutton_on.png */,
-				28234D5E13F09148006B830D /* talkbutton_on@2x.png */,
+				28234D5B13F09148006B830D /* talkbutton_off.png.ori */,
+				28234D5C13F09148006B830D /* talkbutton_off@2x.png.ori */,
+				28234D5D13F09148006B830D /* talkbutton_on.png.ori */,
+				0E48EEC716301458008A88AC /* talkbutton_on.png */,
+				0E48EEC516301451008A88AC /* talkbutton_off.png */,
+				0E48EEC116301387008A88AC /* talkbutton_on@2x.png */,
+				0E48EEC3163013EB008A88AC /* talkbutton_off@2x.png */,
+				28234D5E13F09148006B830D /* talkbutton_on@2x.png.ori */,
 				28DC1C1313DE596B0037CDC2 /* authenticated.png */,
 				28DC1C1413DE596B0037CDC2 /* authenticated@2x.png */,
 				28DC1C1613DE596B0037CDC2 /* certificate16.png */,
@@ -918,6 +968,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				0EC8DEF5163000E800CD8BC0 /* Default-568h@2x.png */,
 				2861C28C116BE90B002B8514 /* Dependencies */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -984,7 +1035,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Mumble" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1075,10 +1126,10 @@
 				28DC1CA213DE596B0037CDC2 /* talking_whisper@2x.png in Resources */,
 				28DC1CA313DE596B0037CDC2 /* up.png in Resources */,
 				28DC1CA413DE596B0037CDC2 /* up@2x.png in Resources */,
-				28234D5F13F09148006B830D /* talkbutton_off.png in Resources */,
-				28234D6013F09148006B830D /* talkbutton_off@2x.png in Resources */,
-				28234D6113F09148006B830D /* talkbutton_on.png in Resources */,
-				28234D6213F09148006B830D /* talkbutton_on@2x.png in Resources */,
+				28234D5F13F09148006B830D /* talkbutton_off.png.ori in Resources */,
+				28234D6013F09148006B830D /* talkbutton_off@2x.png.ori in Resources */,
+				28234D6113F09148006B830D /* talkbutton_on.png.ori in Resources */,
+				28234D6213F09148006B830D /* talkbutton_on@2x.png.ori in Resources */,
 				28A2AEB914786E6000F3B83F /* Default.png in Resources */,
 				28A2AEBA14786E6000F3B83F /* Default@2x.png in Resources */,
 				28A2AEBB14786E6000F3B83F /* Icon.png in Resources */,
@@ -1095,14 +1146,14 @@
 				2879526D14C202C600567430 /* channelmsg@2x.png in Resources */,
 				2879527014C2043E00567430 /* usermsg.png in Resources */,
 				2879527114C2043E00567430 /* usermsg@2x.png in Resources */,
-				2879527D14C248C500567430 /* Balloon_2.png in Resources */,
-				2879527E14C248C500567430 /* Balloon_2@2x.png in Resources */,
-				2879528414C2687D00567430 /* Balloon_Blue.png in Resources */,
-				2879528514C2687D00567430 /* Balloon_Blue@2x.png in Resources */,
+				2879527D14C248C500567430 /* Balloon_2.ori.png in Resources */,
+				2879527E14C248C500567430 /* Balloon_2@2x.ori.png in Resources */,
+				2879528414C2687D00567430 /* Balloon_Blue.ori.png in Resources */,
+				2879528514C2687D00567430 /* Balloon_Blue@2x.ori.png in Resources */,
 				2879528A14C3874C00567430 /* LeftBalloonSelected.png in Resources */,
-				2879528B14C3874C00567430 /* LeftBalloonSelected@2x.png in Resources */,
+				2879528B14C3874C00567430 /* LeftBalloonSelected@2x.ori.png in Resources */,
 				2879528C14C3874C00567430 /* RightBalloonSelected.png in Resources */,
-				2879528D14C3874C00567430 /* RightBalloonSelected@2x.png in Resources */,
+				2879528D14C3874C00567430 /* RightBalloonSelected@2x.ori.png in Resources */,
 				287A686714C6FB9F008B1BE7 /* GrayCheckmark.png in Resources */,
 				287A686814C6FB9F008B1BE7 /* GrayCheckmark@2x.png in Resources */,
 				28FAA35F14D74C1600F6D711 /* SmallMumbleIcon.png in Resources */,
@@ -1120,6 +1171,23 @@
 				286A3CAF158CEB5B00C817D1 /* MainWindow~iPad.xib in Resources */,
 				286A3CC1158CFEAB00C817D1 /* _UIPopoverViewBlackBackgroundArrowUp.png in Resources */,
 				286A3CC2158CFEAB00C817D1 /* _UIPopoverViewBlackBackgroundArrowUp@2x.png in Resources */,
+				0EC8DEF6163000E800CD8BC0 /* Default-568h@2x.png in Resources */,
+				0E48EEC216301387008A88AC /* talkbutton_on@2x.png in Resources */,
+				0E48EEC4163013EB008A88AC /* talkbutton_off@2x.png in Resources */,
+				0E48EEC616301452008A88AC /* talkbutton_off.png in Resources */,
+				0E48EEC816301459008A88AC /* talkbutton_on.png in Resources */,
+				0E48EEDA1630357C008A88AC /* Balloon_2@2x5.png in Resources */,
+				0E48EEDB1630357C008A88AC /* Balloon_2@2x 2 copie.png in Resources */,
+				0E48EEDC1630357C008A88AC /* Balloon_2@2x 2.png in Resources */,
+				0E48EEDD1630357C008A88AC /* LeftBalloonSelected@2x.png in Resources */,
+				0E48EEDE1630357C008A88AC /* RightBalloonSelected@2x.png in Resources */,
+				0E48EEE01630357C008A88AC /* Balloon_Blue@2x5.png in Resources */,
+				0E48EF0416303ABC008A88AC /* Balloon_Blue@2x.png in Resources */,
+				0E48EF0616303C62008A88AC /* Balloon_2@2x.png in Resources */,
+				0E48EF0B16303E85008A88AC /* Balloon_2.png in Resources */,
+				0E48EF0C16303E85008A88AC /* LeftBalloonSelected.png in Resources */,
+				0E48EF0D16303E85008A88AC /* RightBalloonSelected.png in Resources */,
+				0E48EF0E16303E85008A88AC /* Balloon_Blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1267,7 +1335,9 @@
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				SEPARATE_STRIP = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1275,7 +1345,9 @@
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				SEPARATE_STRIP = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1284,13 +1356,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 285E2A60150D729B008AE185 /* AppStore.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ludovic Rateau (4S4YJPE5RQ)";
+				PROVISIONING_PROFILE = "7808B215-6C7A-4A6D-A1E8-1BA39CF650BA";
 			};
 			name = AppStore;
 		};
 		2887C88A1454C4C2009B3576 /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				SEPARATE_STRIP = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = AppStore;
@@ -1299,13 +1375,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 285E2A62150D729B008AE185 /* BetaDist.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ludovic Rateau (4S4YJPE5RQ)";
+				PROVISIONING_PROFILE = "7808B215-6C7A-4A6D-A1E8-1BA39CF650BA";
 			};
 			name = BetaDist;
 		};
 		28BC1E7B1227155500C03FCF /* BetaDist */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				SEPARATE_STRIP = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = BetaDist;
@@ -1314,6 +1394,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 285E2A63150D729B008AE185 /* Debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ludovic Rateau (4S4YJPE5RQ)";
+				PROVISIONING_PROFILE = "7808B215-6C7A-4A6D-A1E8-1BA39CF650BA";
 			};
 			name = Debug;
 		};
@@ -1321,6 +1403,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 285E2A64150D729B008AE185 /* Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ludovic Rateau (4S4YJPE5RQ)";
+				PROVISIONING_PROFILE = "7808B215-6C7A-4A6D-A1E8-1BA39CF650BA";
 			};
 			name = Release;
 		};

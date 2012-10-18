@@ -51,7 +51,7 @@
 
 - (id) init {
     if ((self = [super initWithStyle:UITableViewStyleGrouped])) {
-        // ...
+
     }
     return self;
 }
@@ -71,18 +71,19 @@
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.scrollEnabled = NO;
     
-    UIBarButtonItem *about = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"About", nil)
+    /*UIBarButtonItem *about = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"About", nil)
                                                               style:UIBarButtonItemStyleBordered
                                                              target:self
                                                              action:@selector(aboutClicked:)];
     [self.navigationItem setRightBarButtonItem:about];
     [about release];
+    */
     
     UIBarButtonItem *prefs = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Preferences", nil)
                                                               style:UIBarButtonItemStyleBordered
                                                              target:self
                                                              action:@selector(prefsClicked:)];
-    [self.navigationItem setLeftBarButtonItem:prefs];
+    [self.navigationItem setRightBarButtonItem:prefs];
     [prefs release];
 }
 
@@ -134,7 +135,7 @@
         if (indexPath.row == 0) {
             cell.textLabel.text = NSLocalizedString(@"Public Servers", nil);
         } else if (indexPath.row == 1) {
-            cell.textLabel.text = NSLocalizedString(@"Favourite Servers", nil);
+            cell.textLabel.text = NSLocalizedString(@"Servers List", nil);
         } else if (indexPath.row == 2) {
             cell.textLabel.text = NSLocalizedString(@"LAN Servers", nil);
         }
@@ -162,7 +163,7 @@
     }
 }
 
-- (void) aboutClicked:(id)sender {
+/*- (void) aboutClicked:(id)sender {
 #ifdef MUMBLE_BETA_DIST
     NSString *aboutTitle = [NSString stringWithFormat:@"Mumble %@ (%@)",
                             [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"],
@@ -180,7 +181,7 @@
                                                                 NSLocalizedString(@"Support", nil), nil];
     [aboutView show];
     [aboutView release];
-}
+}*/
 
 - (void) prefsClicked:(id)sender {
     MUPreferencesViewController *prefs = [[[MUPreferencesViewController alloc] init] autorelease];
@@ -190,7 +191,7 @@
 #pragma mark -
 #pragma mark About Dialog
 
-- (void) alertView:(UIAlertView *)alert didDismissWithButtonIndex:(NSInteger)buttonIndex {
+/*- (void) alertView:(UIAlertView *)alert didDismissWithButtonIndex:(NSInteger)buttonIndex {
     if (buttonIndex == 1) {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.mumbleapp.com/"]];
     } else if (buttonIndex == 2) {
@@ -203,6 +204,6 @@
     } else if (buttonIndex == 3) {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:support@mumbleapp.com"]];
     }
-}
+}*/
 
 @end

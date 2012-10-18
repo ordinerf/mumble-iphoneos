@@ -178,7 +178,7 @@
         [alertView show];
         [alertView release];
     // Connect
-    } else if (index == 2) {
+    } else if (index == 0) {
         NSString *userName = [favServ userName];
         if (userName == nil) {
             userName = [[NSUserDefaults standardUserDefaults] objectForKey:@"DefaultUserName"];

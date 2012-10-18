@@ -493,7 +493,7 @@
 #pragma mark - MKServerModel delegate
 
 - (void) serverModel:(MKServerModel *)model joinedServerAsUser:(MKUser *)user withWelcomeMessage:(MKTextMessage *)msg {
-   [_msgdb addMessage:msg withHeading:NSLocalizedString(@"Welcome Message", @"Title for welcome message") andSentBySelf:NO];
+   [_msgdb addMessage:msg withHeading:NSLocalizedString(@"Server", @"Title for welcome message") andSentBySelf:NO];
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:[_msgdb count]-1 inSection:0];
     [_tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
     if (![_tableView isDragging] && ![[UIMenuController sharedMenuController] isMenuVisible]) {
@@ -539,7 +539,7 @@
 }
 
 - (void) serverModel:(MKServerModel *)model textMessageReceived:(MKTextMessage *)msg fromUser:(MKUser *)user {    
-    [_msgdb addMessage:msg withHeading:[NSString stringWithFormat:NSLocalizedString(@"From %@", @"Message sender title"), [user userName]] andSentBySelf:NO];
+    [_msgdb addMessage:msg withHeading:[NSString stringWithFormat:NSLocalizedString(@"%@", @"Message sender title"), [user userName]] andSentBySelf:NO];
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:[_msgdb count]-1 inSection:0];
     [_tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
     if (![_tableView isDragging] && ![[UIMenuController sharedMenuController] isMenuVisible]) {

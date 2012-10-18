@@ -160,7 +160,7 @@
                                                                 [NSNumber numberWithFloat:0.6f],   @"AudioVADAbove",
                                                                 [NSNumber numberWithFloat:0.3f],   @"AudioVADBelow",
                                                                 @"amplitude",                      @"AudioVADKind",
-                                                                @"vad",                            @"AudioTransmitMethod",
+                                                                @"ptt",                            @"AudioTransmitMethod",
                                                                 [NSNumber numberWithBool:YES],     @"AudioPreprocessor",
                                                                 [NSNumber numberWithBool:YES],     @"AudioEchoCancel",
                                                                 [NSNumber numberWithFloat:1.0f],   @"AudioMicBoost",

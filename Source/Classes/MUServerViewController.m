@@ -137,7 +137,7 @@
         CGRect windowRect = [window frame];
         CGRect buttonRect = windowRect;
         buttonRect.size = onImage.size;
-        buttonRect.origin.y = windowRect.size.height - (buttonRect.size.height + 40);
+        buttonRect.origin.y = windowRect.size.height - (buttonRect.size.height + 5);
         buttonRect.origin.x = (windowRect.size.width - buttonRect.size.width)/2;
         
         _talkButton = [UIButton buttonWithType:UIButtonTypeCustom];
